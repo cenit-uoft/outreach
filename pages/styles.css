@@ -1,0 +1,11 @@
+@tailwind utilities;
+
+/* Style the navigation links as individual rounded rectangles */
+.nextra-nav-container nav a {
+  font-size: 1.1rem !important;        /* Adjusted slightly to leave room for the padding */
+  font-weight: 350 !important;   
+  color: #000000 !important;     
+}
+.awssld__content {
+  background-color: transparent !important;
+}

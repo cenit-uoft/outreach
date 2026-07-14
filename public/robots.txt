@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://cenit-uoft.org
+
+# Sitemaps
+Sitemap: https://cenit-uoft.org/sitemap.xml
