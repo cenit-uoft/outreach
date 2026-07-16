@@ -39,7 +39,7 @@ To add new publications using [Google Scholar](https://scholar.google.com/) and 
 
 The software framework and underlying code of this website project are licensed under the MIT License (see the accompanying LICENSE file). However, the following items are **strictly excluded** from the MIT License. You do not have permission to copy, modify, redistribute, or reuse them. Explicit prior written permission must be obtained for:
 
-* **Personal Identity & Images**: All profile photos, portraits, CENIT logos, and personal media assets.
+* **Personal Identity & Images**: All profile photos, gallery portraits and images, CENIT logos, and personal media assets.
 * **Academic & Written Content**: All publication details, paper abstracts, patent text, research project descriptions, and custom CV copy. (Note that some of these contents might be licensed by third-party publishers where permission must be obtained from the corresponding publishers directly.)
 * **Biographical Text**: All personal statements, about-me write-ups, and custom text narratives.
 
