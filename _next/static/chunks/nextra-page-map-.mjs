@@ -134,6 +134,17 @@ export const pageMap = [{
       "google_scholar": "https://scholar.google.com/citations?user=8WrYVG8AAAAJ&hl=en"
     }
   }, {
+    name: "katia_obraczka",
+    route: "/people/katia_obraczka",
+    frontMatter: {
+      "title": "Katia Obraczka",
+      "image": "/people/k1.png",
+      "role": "Professor\nUC Santa Cruz",
+      "category": "C4_1",
+      "date": "2026/08/01",
+      "website": "https://inrg.engineering.ucsc.edu/"
+    }
+  }, {
     name: "lindsay_montgomery",
     route: "/people/lindsay_montgomery",
     frontMatter: {
@@ -242,6 +253,18 @@ export const pageMap = [{
       "category": "C1_50",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/philipasare/"
+    }
+  }, {
+    name: "rolando_menchaca-mendez",
+    route: "/people/rolando_menchaca-mendez",
+    frontMatter: {
+      "title": "Rolando Menchaca-Méndez",
+      "image": "/people/r1.jpeg",
+      "role": "Professor\nNational Polytechnic Institute (CIC-IPN)",
+      "category": "C4_11",
+      "date": "2026/08/01",
+      "linkedin": "https://www.linkedin.com/in/rolando-menchaca-mendez-90683011/",
+      "website": "https://www.cic.ipn.mx/views/investigation/rolando-menchaca-mendez.php"
     }
   }, {
     name: "sardana_nikolaeva",
