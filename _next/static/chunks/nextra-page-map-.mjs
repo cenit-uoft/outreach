@@ -181,6 +181,19 @@ export const pageMap = [{
       "github": null
     }
   }, {
+    name: "marcelo_m_carvalho",
+    route: "/people/marcelo_m_carvalho",
+    frontMatter: {
+      "title": "Marcelo M. Carvalho",
+      "image": "/people/m6.jpeg",
+      "role": "Assistant Professor\nTexas State University",
+      "category": "C4_31",
+      "date": "2026/08/04",
+      "linkedin": "https://www.linkedin.com/in/marcelo-carvalho-1161041/",
+      "google_scholar": "https://scholar.google.com/citations?user=CXOLCqEAAAAJ&hl=en",
+      "website": "https://faculty.txst.edu/profile/2416001"
+    }
+  }, {
     name: "mehdi_attaran",
     route: "/people/mehdi_attaran",
     frontMatter: {
