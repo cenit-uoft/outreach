@@ -97,6 +97,19 @@ export const pageMap = [{
       "website": "https://1hsiehcha.github.io/personal-website/"
     }
   }, {
+    name: "ersin_uzun",
+    route: "/people/ersin_uzun",
+    frontMatter: {
+      "title": "Ersin Uzun",
+      "image": "/people/e1.jpeg",
+      "role": "Professor\nRochester Institute of Technology",
+      "category": "C4_11",
+      "date": "2026/08/06",
+      "linkedin": "https://www.linkedin.com/in/ersinuzun/",
+      "google_scholar": "https://scholar.google.com/citations?user=-sf4IhMAAAAJ&amp;hl=en",
+      "website": "https://www.rit.edu/directory/exugci-ersin-uzun"
+    }
+  }, {
     name: "jj_garcia-luna-aceves",
     route: "/people/jj_garcia-luna-aceves",
     frontMatter: {
@@ -274,7 +287,7 @@ export const pageMap = [{
       "title": "Rolando Menchaca-Méndez",
       "image": "/people/r1.jpeg",
       "role": "Professor\nNational Polytechnic Institute (CIC-IPN)",
-      "category": "C4_11",
+      "category": "C4_12",
       "date": "2026/08/01",
       "linkedin": "https://www.linkedin.com/in/rolando-menchaca-mendez-90683011/",
       "website": "https://www.cic.ipn.mx/views/investigation/rolando-menchaca-mendez.php"
