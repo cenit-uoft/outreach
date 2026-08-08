@@ -59,6 +59,17 @@ export const pageMap = [{
   children: [{
     data: people_meta
   }, {
+    name: "abdulaziz_ali_alhamodi",
+    route: "/people/abdulaziz_ali_alhamodi",
+    frontMatter: {
+      "title": "Abdulaziz Ali Alhamodi",
+      "image": "/people/a1.png",
+      "role": "Assistant Professor\nUniversity of Tabuk",
+      "category": "C4_32",
+      "date": "2026/08/08",
+      "linkedin": "http://www.linkedin.com/in/abdulazaz-albalawi"
+    }
+  }, {
     name: "admin",
     route: "/people/admin",
     frontMatter: {
