@@ -3,6 +3,16 @@ import { Galleria } from 'primereact/galleria';
 
 const ALBUMS_DATA = [
     {
+        id: 'cenit-sebastian',
+        albumName: 'Gathering with Professor Rieger - September 2025',
+        items: [
+            {
+                filename: '9.jpg',
+                description: 'Gathering with Professor Rieger (left) from Fulda University at the Bahen Center for Information Technology, University of Toronto.'
+            }
+        ]
+    },
+    {
         id: 'cenit-team',
         albumName: 'CENIT Team Gathering - July 2026',
         items: [
