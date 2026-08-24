@@ -427,11 +427,19 @@ export const pageMap = [{
   children: [{
     data: technology_meta
   }, {
+    name: "computing",
+    route: "/technology/computing",
+    frontMatter: {
+      "title": "Computing Resources",
+      "image": "/technology/compute.png",
+      "date": "2026/08/24"
+    }
+  }, {
     name: "router",
     route: "/technology/router",
     frontMatter: {
-      "title": "Router Daemon",
-      "image": "/technology/router.png",
+      "title": "OBGP Router",
+      "image": "/technology/obgp.png",
       "date": "2026/07/13"
     }
   }]
@@ -440,6 +448,6 @@ export const pageMap = [{
   route: "/technology",
   frontMatter: {
     "title": "CENIT Technologies",
-    "date": "2026/07/13"
+    "date": "2026/08/24"
   }
 }];
