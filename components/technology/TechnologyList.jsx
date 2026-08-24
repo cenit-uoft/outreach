@@ -39,12 +39,12 @@ return (
       <div className="max-w-screen-xl mx-auto px-4 md:px-8">
         <div className="max-w-3xl mx-auto sm:text-center">
           <h3 className="text-gray-800 text-3xl font-semibold sm:text-4xl">
-            CENIT Technology and Software
+            CENIT Technologies
           </h3>
-          <p className="text-gray-600 mt-3">Explore our technologies and software.</p>
+          <p className="text-gray-600 mt-3">Here you can explore our technologies, software, and computing resources.</p>
         </div>
         <div className="mt-12">
-          <ul className="grid gap-8 sm:grid-cols-2 md:grid-cols-3">
+          <ul className="grid gap-12 sm:grid-cols-2 md:grid-cols-2">
             {Array.isArray(technologies) && technologies.map((page, idx) => (
               <li key={idx} className="transition transform hover:-translate-y-1 duration-200">
 
@@ -53,7 +53,7 @@ return (
                   <div className="w-full h-60 sm:h-52 md:h-56 overflow-hidden rounded-xl shadow-md group-hover:shadow-lg transition duration-200">
                     <img
                       src={page.frontMatter?.image}
-                      className="w-full h-full object-cover object-center group-hover:scale-105 transition duration-200"
+                      className="w-full h-full object-contain bg-blue-900 object-center group-hover:scale-105 transition duration-200"
                       alt={page.frontMatter?.title || "Research Image"}
                     />
                   </div>

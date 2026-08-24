@@ -1,11 +1,48 @@
 ---
-title: "Router Daemon"
-image: "/technology/router.png"
+title: "OBGP Router"
+image: "/technology/obgp.png"
 date: 2026/07/13
 ---
 
-## BGP Routers
+### OBGP Router
 
- {/* # ![img](/technology/router.png) */}
+The Border Gateway Protocol (BGP) is used for routing across Autonomous Systems (ASes) and is therefore a core component of the Internet. 
+However, BGP's path-vector dynamics, combined with conflicting policies, can lead to persistent oscillations. 
+In operational networks, these effects are often mitigated rather than eliminated, typically through suppression mechanisms. 
+While such measures can reduce route churn, they can also delay convergence. 
+As routing tables and route churn grow, this overhead becomes increasingly costly in terms of memory and processing resources. 
+Recent work further shows that these instabilities can be weaponized. 
+In particular, transitive communities allow an adversary to trigger remote policy changes several hops away. 
+By forcing distant routers to lower their Local Preference or prepend AS paths, an attacker can induce preference cycles and persistent oscillations.
 
-Router Daemon ...
+Our recent work on the Ordered Path Etiquette for Routing Algebra (OPERA) and OPERA-based BGP (OBGP) has shown that BGP can, 
+in theory, be made stable and loop-free without changing BGP signaling by imposing suitable ordering constraints on route import, 
+selection, and export. However, no prior work had implemented and experimentally validated OBGP in a routing daemon.
+
+The contributions of our research are:
+
+- The first implementation of OBGP in the widely used open-source GoBGP daemon.
+- A Kubernetes-based emulation environment and experimental tooling for fill and drain experiments.
+- An experimental comparison between OBGP and unmodified GoBGP on germany50, BAD GADGET, and an adapted noble-eu topology, 
+reporting convergence and Loc-RIB characteristics.
+
+Our research shows that OBGP can be integrated into a widely used BGP daemon without changing BGP signaling, 
+and that the resulting system behaves as predicted by prior theory. 
+Our work provides the first daemon-level validation of OPERA-based BGP in a widely used routing daemon without changing BGP signaling. 
+The central result is that a routing design previously established only in theory can be brought into an operational routing system 
+without sacrificing interoperability or local policy control. 
+Our GoBGP implementation shows this concretely: under cyclic policies, it eliminates persistent oscillation, converges, and 
+reduces control-plane state. In this sense, the contribution is not only an implementation of a known design, 
+but a validation that the design holds up in a real routing stack. 
+This gives the field a concrete baseline for future work. 
+The next step is to extend that baseline from plain paths to structured path objects, from single-path export to ordered path sets, 
+and from one-dimensional ranking to richer routing algebras.
+
+More details on our research are presented in our paper <a href="https://doi.org/10.23919/IFIPNetworking70592.2026.11578986" target="_blank" rel="noopener noreferrer" className="font-bold text-[#35538E] hover:underline">"Making BGP-4 More Efficient and Oscillation-Free."</a>
+
+To facilitate reproducibility and foster further research, the source code of the modified GoBGP daemon, 
+the emulation environment, and the experimental raw data are available at <a href="" target="_blank" rel="noopener noreferrer" className="font-bold text-[#35538E] hover:underline">OBPG Router GitHub</a>.
+
+
+This work was supported by a fellowship of the German Academic Exchange Service (DAAD) and by the Canada Excellence Research Chair 
+in Intelligent Digital Infrastructures at the University of Toronto, funded by the Tri-agency Institutional Programs Secretariat.

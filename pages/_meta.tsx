@@ -59,6 +59,18 @@ export default {
       layout: 'default',
     }
   },
+  "technology": {
+    title: "Technologies",
+    type: "page",
+    theme: {
+      sidebar: false,
+      toc: false,
+      breadcrumb: false,
+      timestamp: false,
+      pagination: false,
+      layout: 'default',
+    }
+  },
   "position": {
     title: "Open Positions",
     type: "page",
