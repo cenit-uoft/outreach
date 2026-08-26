@@ -9,7 +9,7 @@ export default memo(() => {
     // Define mapping for the 5 categories based on 'C1', 'C2', etc.
     const categoryLabels = {
         "C1": "CENIT Core Members",
-        "C2": "CENIT Staffs",
+        "C2": "CENIT Staff",
         "C3": "Post-doctoral Fellows and Graduate Students",
         "C4": "Collaborators",
         "C5": "Alumni"
