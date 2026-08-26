@@ -24,13 +24,29 @@ export const pageMap = [{
   route: "/events",
   children: [{
     data: events_meta
+  }, {
+    name: "community",
+    route: "/events/community",
+    frontMatter: {
+      "title": "Community Engagements",
+      "image": "/events/community.png",
+      "date": "2026/08/25"
+    }
+  }, {
+    name: "talk",
+    route: "/events/talk",
+    frontMatter: {
+      "title": "Talks",
+      "image": "/events/talk.png",
+      "date": "2026/08/25"
+    }
   }]
 }, {
   name: "events",
   route: "/events",
   frontMatter: {
     "title": "CENIT EVENTs",
-    "date": "2026/07/13"
+    "date": "2026/08/25"
   }
 }, {
   name: "gallery",
