@@ -107,6 +107,18 @@ export default {
       layout: 'default',
     }
   },
+  "events": {
+    title: "Events",
+    type: "page",
+    theme: {
+      sidebar: false,
+      toc: false,
+      breadcrumb: false,
+      timestamp: false,
+      pagination: false,
+      layout: 'default',
+    }
+  },
    "contact": {
     title: "Contact",
     type: "page",
