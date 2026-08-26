@@ -71,18 +71,6 @@ export default {
       layout: 'default',
     }
   },
-  "position": {
-    title: "Open Positions",
-    type: "page",
-    theme: {
-      sidebar: false,
-      toc: false,
-      breadcrumb: false,
-      timestamp: false,
-      pagination: false,
-      layout: 'default',
-    }
-  },
   "awards": {
     title: "Awards",
     type: "page",
@@ -95,8 +83,8 @@ export default {
       layout: 'default',
     }
   },
-  "gallery": {
-    title: "Gallery",
+  "events": {
+    title: "Events",
     type: "page",
     theme: {
       sidebar: false,
@@ -107,8 +95,20 @@ export default {
       layout: 'default',
     }
   },
-  "events": {
-    title: "Events",
+  "position": {
+    title: "Open Positions",
+    type: "page",
+    theme: {
+      sidebar: false,
+      toc: false,
+      breadcrumb: false,
+      timestamp: false,
+      pagination: false,
+      layout: 'default',
+    }
+  },
+  "gallery": {
+    title: "Gallery",
     type: "page",
     theme: {
       sidebar: false,
