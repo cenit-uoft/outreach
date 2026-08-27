@@ -81,7 +81,7 @@ export const pageMap = [{
       "title": "Abdulaziz Ali Alhamodi",
       "image": "/people/a1.png",
       "role": "Assistant Professor\nUniversity of Tabuk",
-      "category": "C4_32",
+      "category": "C5_32",
       "date": "2026/08/08",
       "linkedin": "http://www.linkedin.com/in/abdulazaz-albalawi"
     }
@@ -92,7 +92,7 @@ export const pageMap = [{
       "title": "TBD",
       "image": "/people/vladi.jpg",
       "role": "Administrative Assistant",
-      "category": "C2_10",
+      "category": "C3_10",
       "date": "2026/07/13"
     }
   }, {
@@ -102,7 +102,7 @@ export const pageMap = [{
       "title": "Charles Hsieh",
       "image": "/people/ch1.jpg",
       "role": "Undergraduate Student\nUniversity of Toronto",
-      "category": "C5_100",
+      "category": "C6_100",
       "date": "2026/07/13",
       "linkedin": "https://ca.linkedin.com/in/charles-hsieh-856682239",
       "google_scholar": "https://scholar.google.com/citations?user=V3XptIcAAAAJ&hl=en&oi=ao",
@@ -116,7 +116,7 @@ export const pageMap = [{
       "title": "Charles Hsieh",
       "image": "/people/ch1.jpg",
       "role": "Master Student\nUniversity of Toronto",
-      "category": "C3_300",
+      "category": "C4_300",
       "date": "2026/07/13",
       "linkedin": "https://ca.linkedin.com/in/charles-hsieh-856682239",
       "google_scholar": "https://scholar.google.com/citations?user=V3XptIcAAAAJ&hl=en&oi=ao",
@@ -130,7 +130,7 @@ export const pageMap = [{
       "title": "Ersin Uzun",
       "image": "/people/e1.jpeg",
       "role": "Professor\nRochester Institute of Technology",
-      "category": "C4_11",
+      "category": "C5_11",
       "date": "2026/08/06",
       "linkedin": "https://www.linkedin.com/in/ersinuzun/",
       "google_scholar": "https://scholar.google.com/citations?user=-sf4IhMAAAAJ&amp;hl=en",
@@ -156,7 +156,7 @@ export const pageMap = [{
       "title": "Joao Paulo Pinto Galdino Marques",
       "image": "/people/j2.jpg",
       "role": "PhD Student\nUniversity of Toronto",
-      "category": "C3_110",
+      "category": "C4_110",
       "date": "2026/07/13",
       "linkedin": "www.linkedin.com/in/joaoppgmarques",
       "google_scholar": "https://scholar.google.ca/citations?user=nRDXN1oAAAAJ&hl=en&oi=ao"
@@ -180,8 +180,9 @@ export const pageMap = [{
       "title": "Katia Obraczka",
       "image": "/people/k1.png",
       "role": "Professor\nUC Santa Cruz",
-      "category": "C4_1",
+      "category": "C2_10",
       "date": "2026/08/01",
+      "google_scholar": "https://scholar.google.com/citations?user=xALG_EMAAAAJ&hl=en",
       "website": "https://inrg.engineering.ucsc.edu/"
     }
   }, {
@@ -203,7 +204,7 @@ export const pageMap = [{
       "title": "Lucas Immanuel Nickel",
       "image": "/people/l2.jpg",
       "role": "PhD Student\nUniversity of Applied Sciences Fulda",
-      "category": "C3_210",
+      "category": "C4_210",
       "date": "2026/07/13",
       "linkedin": "https://de.linkedin.com/in/lucas-immanuel-nickel",
       "github": null
@@ -215,7 +216,7 @@ export const pageMap = [{
       "title": "Lucas Immanuel Nickel",
       "image": "/people/l2.jpg",
       "role": "Visiting Master Student\nUniversity of Applied Sciences Fulda",
-      "category": "C5_10",
+      "category": "C6_10",
       "date": "2026/07/13",
       "linkedin": "https://de.linkedin.com/in/lucas-immanuel-nickel",
       "github": null
@@ -227,7 +228,7 @@ export const pageMap = [{
       "title": "Marcelo M. Carvalho",
       "image": "/people/m6.jpeg",
       "role": "Assistant Professor\nTexas State University",
-      "category": "C4_31",
+      "category": "C5_31",
       "date": "2026/08/04",
       "linkedin": "https://www.linkedin.com/in/marcelo-carvalho-1161041/",
       "google_scholar": "https://scholar.google.com/citations?user=CXOLCqEAAAAJ&hl=en",
@@ -240,7 +241,7 @@ export const pageMap = [{
       "title": "Mahdi Attaran",
       "image": "/people/m1.jpg",
       "role": "PhD Student\nUniversity of Toronto",
-      "category": "C3_120",
+      "category": "C4_120",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/mahdiattaran",
       "github": null
@@ -252,7 +253,7 @@ export const pageMap = [{
       "title": "Michela Meo",
       "image": "/people/m2.jpg",
       "role": "Professor\nPolitecnico di Torino",
-      "category": "C4_10",
+      "category": "C5_10",
       "date": "2026/07/13",
       "google_scholar": "https://scholar.google.ca/citations?hl=en&user=NbZRnAEAAAAJ",
       "github": null,
@@ -265,7 +266,7 @@ export const pageMap = [{
       "title": "Mohamed Chahine Ghanem",
       "image": "/people/m3.png",
       "role": "Associate Professor\nKeele University",
-      "category": "C4_30",
+      "category": "C5_30",
       "date": "2026/07/13",
       "linkedin": "https://uk.linkedin.com/in/mohamed-chahine-ghanem-phd-cissp-sfhea-3665b010a",
       "google_scholar": "https://scholar.google.co.uk/citations?user=gT0iu6IAAAAJ&hl=en",
@@ -278,7 +279,7 @@ export const pageMap = [{
       "title": "Mohammad Sabramooz",
       "image": "/people/m4.jpg",
       "role": "PhD Student\nUniversity of Toronto",
-      "category": "C3_130",
+      "category": "C4_130",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/mohammadreza-sabramooz-b31297139/",
       "google_scholar": "https://scholar.google.ca/citations?user=nuiHB1MAAAAJ&hl=en",
@@ -295,6 +296,18 @@ export const pageMap = [{
       "date": "2026/07/13",
       "linkedin": "https://ca.linkedin.com/in/moghaddassian",
       "google_scholar": null
+    }
+  }, {
+    name: "mostafa_ammar",
+    route: "/people/mostafa_ammar",
+    frontMatter: {
+      "title": "Mostafa Ammar",
+      "image": "/people/m7.png",
+      "role": "Professor\nGeorgia Institute of Technology",
+      "category": "C2_1",
+      "date": "2026/08/27",
+      "google_scholar": "https://scholar.google.com/citations?user=OT79Y9UAAAAJ&hl=en",
+      "website": "https://www.cc.gatech.edu/people/mostafa-ammar"
     }
   }, {
     name: "philip_asare",
@@ -314,7 +327,7 @@ export const pageMap = [{
       "title": "Rolando Menchaca-Méndez",
       "image": "/people/r1.jpeg",
       "role": "Professor\nNational Polytechnic Institute (CIC-IPN)",
-      "category": "C4_12",
+      "category": "C5_12",
       "date": "2026/08/01",
       "linkedin": "https://www.linkedin.com/in/rolando-menchaca-mendez-90683011/",
       "website": "https://www.cic.ipn.mx/views/investigation/rolando-menchaca-mendez.php"
@@ -326,7 +339,7 @@ export const pageMap = [{
       "title": "Sardana Nikolaeva",
       "image": "/people/s1.jpg",
       "role": "Post-Doctoral Fellow\nUniversity of Toronto",
-      "category": "C3_10",
+      "category": "C4_10",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/sardana-nikolaeva-0274b517/",
       "google_scholar": "https://scholar.google.ca/citations?user=IRoHN3MAAAAJ&hl=en",
@@ -339,7 +352,7 @@ export const pageMap = [{
       "title": "Sebastian Rieger",
       "image": "/people/s2.jpg",
       "role": "Professor\nUniversity of Applied Sciences Fulda",
-      "category": "C4_20",
+      "category": "C5_20",
       "date": "2026/07/13",
       "linkedin": "https://de.linkedin.com/in/sebastian-rieger-5ab689a7",
       "google_scholar": "https://scholar.google.com/citations?user=-hlIJsAAAAAJ&hl=de",
@@ -353,7 +366,7 @@ export const pageMap = [{
       "title": "Sheideh Homayoun",
       "image": "/people/s3.png",
       "role": "PhD Candidate\nUniversity of California at Santa Cruz",
-      "category": "C3_100",
+      "category": "C4_100",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/sheideh-homayon-700632118/",
       "google_scholar": "https://scholar.google.com/citations?user=Yin_5EIAAAAJ&hl=en"
@@ -365,7 +378,7 @@ export const pageMap = [{
       "title": "Tailai Song",
       "image": "/people/t1.jpg",
       "role": "Post-Doctoral Fellow\nPolitecnico di Torino",
-      "category": "C4_40",
+      "category": "C5_40",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/tailai-song-8349b2239",
       "google_scholar": "https://scholar.google.com/citations?user=XACF17oAAAAJ"
