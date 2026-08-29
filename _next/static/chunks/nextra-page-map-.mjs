@@ -90,7 +90,7 @@ export const pageMap = [{
     route: "/people/admin",
     frontMatter: {
       "title": "TBD",
-      "image": "/people/vladi.jpg",
+      "image": "/people/",
       "role": "Administrative Assistant",
       "category": "C3_10",
       "date": "2026/07/13"
@@ -124,6 +124,28 @@ export const pageMap = [{
       "website": "https://1hsiehcha.github.io/personal-website/"
     }
   }, {
+    name: "christophe_diot",
+    route: "/people/christophe_diot",
+    frontMatter: {
+      "title": "Christophe Diot",
+      "image": "/people/c2.jpg",
+      "role": "ACM Fellow",
+      "category": "C2_20",
+      "date": "2026/08/28",
+      "google_scholar": "https://scholar.google.com/citations?user=wtMGHCQAAAAJ&hl=en"
+    }
+  }, {
+    name: "ebube_itanyi",
+    route: "/people/ebube_itanyi",
+    frontMatter: {
+      "title": "Ebube Itanyi",
+      "image": "/people/e2.jpg",
+      "role": "Undergraduate Student\nUniversity of Toronto",
+      "category": "C4_410",
+      "date": "2026/08/29",
+      "linkedin": "https://www.linkedin.com/in/ebubechukwu-itanyi-8b839a275/"
+    }
+  }, {
     name: "ersin_uzun",
     route: "/people/ersin_uzun",
     frontMatter: {
@@ -135,6 +157,17 @@ export const pageMap = [{
       "linkedin": "https://www.linkedin.com/in/ersinuzun/",
       "google_scholar": "https://scholar.google.com/citations?user=-sf4IhMAAAAJ&amp;hl=en",
       "website": "https://www.rit.edu/directory/exugci-ersin-uzun"
+    }
+  }, {
+    name: "folake_oyewole",
+    route: "/people/folake_oyewole",
+    frontMatter: {
+      "title": "Folake Oyewole",
+      "image": "/people/f1.jpg",
+      "role": "Senior Research Analyst\nUniversity of Toronto",
+      "category": "C3_1",
+      "date": "2026/08/29",
+      "linkedin": "https://www.linkedin.com/in/folakeoyewole/"
     }
   }, {
     name: "jj_garcia-luna-aceves",
@@ -172,6 +205,17 @@ export const pageMap = [{
       "date": "2026/07/13",
       "website": "https://www.comm.toronto.edu/~jorg/",
       "google_scholar": "https://scholar.google.com/citations?user=8WrYVG8AAAAJ&hl=en"
+    }
+  }, {
+    name: "justin_yearwood",
+    route: "/people/justin_yearwood",
+    frontMatter: {
+      "title": "Justin Yearwood",
+      "image": "/people/j4.jpg",
+      "role": "Research Analyst\nUniversity of Toronto",
+      "category": "C4_400",
+      "date": "2026/08/29",
+      "linkedin": "https://www.linkedin.com/in/justin-yearwood-39779122a/"
     }
   }, {
     name: "katia_obraczka",
@@ -220,6 +264,17 @@ export const pageMap = [{
       "date": "2026/07/13",
       "linkedin": "https://de.linkedin.com/in/lucas-immanuel-nickel",
       "github": null
+    }
+  }, {
+    name: "mackenzie_campbell",
+    route: "/people/mackenzie_campbell",
+    frontMatter: {
+      "title": "MacKenzie Campbell ",
+      "image": "/people/m8.jpg",
+      "role": "Research Analyst\nUniversity of Toronto",
+      "category": "C6_1",
+      "date": "2026/08/29",
+      "linkedin": "https://www.linkedin.com/in/c-mackenzie-campbell-73a64a122/"
     }
   }, {
     name: "marcelo_m_carvalho",
@@ -310,6 +365,17 @@ export const pageMap = [{
       "website": "https://www.cc.gatech.edu/people/mostafa-ammar"
     }
   }, {
+    name: "neha_sohail",
+    route: "/people/neha_sohail",
+    frontMatter: {
+      "title": "Neha Sohail",
+      "image": "/people/n1.jpg",
+      "role": "Research Analyst\nUniversity of Toronto",
+      "category": "C6_200",
+      "date": "2026/08/29",
+      "linkedin": "https://www.linkedin.com/in/neha-sohail/ "
+    }
+  }, {
     name: "philip_asare",
     route: "/people/philip_asare",
     frontMatter: {
@@ -319,6 +385,18 @@ export const pageMap = [{
       "category": "C1_50",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/philipasare/"
+    }
+  }, {
+    name: "rider_foley",
+    route: "/people/rider_foley",
+    frontMatter: {
+      "title": "Rider W. Foley",
+      "image": "/people/r2.jpg",
+      "role": "Professor\nUniversity of Virginia",
+      "category": "C2_30",
+      "date": "2026/08/28",
+      "google_scholar": "https://scholar.google.com/citations?user=BYQG8dEAAAAJ&hl=en",
+      "website": "https://engineering.virginia.edu/faculty/rider-w-foley"
     }
   }, {
     name: "rolando_menchaca-mendez",
