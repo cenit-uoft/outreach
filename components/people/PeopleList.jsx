@@ -13,7 +13,8 @@ export default memo(() => {
         "C3": "CENIT Staff",
         "C4": "Post-doctoral Fellows and Graduate Students",
         "C5": "Collaborators",
-        "C6": "Alumni"
+        "C6": "Interns and Undergraduate Students",
+        "C7": "Alumni"
     };
 
     useEffect(() => {
