@@ -10,7 +10,7 @@ export const pageMap = [{
   route: "/awards",
   frontMatter: {
     "title": "CENIT Awards and Honors",
-    "date": "2026/07/13"
+    "date": "2026/09/10"
   }
 }, {
   name: "contact",
@@ -86,14 +86,14 @@ export const pageMap = [{
       "linkedin": "http://www.linkedin.com/in/abdulazaz-albalawi"
     }
   }, {
-    name: "admin",
-    route: "/people/admin",
+    name: "adie_margineanu",
+    route: "/people/adie_margineanu",
     frontMatter: {
-      "title": "TBD",
-      "image": "/people/",
-      "role": "Administrative Assistant",
-      "category": "C3_10",
-      "date": "2026/07/13"
+      "title": "Adie Margineanu",
+      "image": "/people/a2.jpg",
+      "role": "Administrative Assistant\nUniversity of Toronto",
+      "category": "C3_1",
+      "date": "2026/09/10"
     }
   }, {
     name: "charles_hsieh_2",
@@ -102,7 +102,7 @@ export const pageMap = [{
       "title": "Charles Hsieh",
       "image": "/people/ch1.jpg",
       "role": "Undergraduate Student\nUniversity of Toronto",
-      "category": "C6_100",
+      "category": "C7_100",
       "date": "2026/07/13",
       "linkedin": "https://ca.linkedin.com/in/charles-hsieh-856682239",
       "google_scholar": "https://scholar.google.com/citations?user=V3XptIcAAAAJ&hl=en&oi=ao",
@@ -129,7 +129,7 @@ export const pageMap = [{
     frontMatter: {
       "title": "Christophe Diot",
       "image": "/people/c2.jpg",
-      "role": "ACM Fellow",
+      "role": "Research Fellow\nUniversity of Massachusetts Amherst",
       "category": "C2_20",
       "date": "2026/08/28",
       "google_scholar": "https://scholar.google.com/citations?user=wtMGHCQAAAAJ&hl=en"
@@ -141,7 +141,7 @@ export const pageMap = [{
       "title": "Ebube Itanyi",
       "image": "/people/e2.jpg",
       "role": "Undergraduate Student\nUniversity of Toronto",
-      "category": "C4_410",
+      "category": "C6_2",
       "date": "2026/08/29",
       "linkedin": "https://www.linkedin.com/in/ebubechukwu-itanyi-8b839a275/"
     }
@@ -165,7 +165,7 @@ export const pageMap = [{
       "title": "Folake Oyewole",
       "image": "/people/f1.jpg",
       "role": "Senior Research Analyst\nUniversity of Toronto",
-      "category": "C3_1",
+      "category": "C3_2",
       "date": "2026/08/29",
       "linkedin": "https://www.linkedin.com/in/folakeoyewole/"
     }
@@ -213,7 +213,7 @@ export const pageMap = [{
       "title": "Justin Yearwood",
       "image": "/people/j4.jpg",
       "role": "Research Analyst\nUniversity of Toronto",
-      "category": "C4_400",
+      "category": "C6_1",
       "date": "2026/08/29",
       "linkedin": "https://www.linkedin.com/in/justin-yearwood-39779122a/"
     }
@@ -260,7 +260,7 @@ export const pageMap = [{
       "title": "Lucas Immanuel Nickel",
       "image": "/people/l2.jpg",
       "role": "Visiting Master Student\nUniversity of Applied Sciences Fulda",
-      "category": "C6_10",
+      "category": "C7_10",
       "date": "2026/07/13",
       "linkedin": "https://de.linkedin.com/in/lucas-immanuel-nickel",
       "github": null
@@ -272,7 +272,7 @@ export const pageMap = [{
       "title": "MacKenzie Campbell ",
       "image": "/people/m8.jpg",
       "role": "Research Analyst\nUniversity of Toronto",
-      "category": "C6_1",
+      "category": "C7_1",
       "date": "2026/08/29",
       "linkedin": "https://www.linkedin.com/in/c-mackenzie-campbell-73a64a122/"
     }
@@ -371,7 +371,7 @@ export const pageMap = [{
       "title": "Neha Sohail",
       "image": "/people/n1.jpg",
       "role": "Research Analyst\nUniversity of Toronto",
-      "category": "C6_200",
+      "category": "C7_200",
       "date": "2026/08/29",
       "linkedin": "https://www.linkedin.com/in/neha-sohail/ "
     }
