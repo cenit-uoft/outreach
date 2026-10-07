@@ -10,7 +10,7 @@ export const pageMap = [{
   route: "/awards",
   frontMatter: {
     "title": "CENIT Awards and Honors",
-    "date": "2026/09/10"
+    "date": "2026/10/07"
   }
 }, {
   name: "contact",
