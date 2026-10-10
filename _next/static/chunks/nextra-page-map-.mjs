@@ -242,6 +242,18 @@ export const pageMap = [{
       "linkedin": "https://ca.linkedin.com/in/lindsay-montgomery-38329b344"
     }
   }, {
+    name: "luca_alfaro",
+    route: "/people/luca_alfaro",
+    frontMatter: {
+      "title": "Luca de Alfaro",
+      "image": "/people/l3.jpg",
+      "role": "Professor\nUC Santa Cruz",
+      "category": "C5_9",
+      "date": "2026/10/09",
+      "google_scholar": "https://scholar.google.com/citations?user=gkACFVcAAAAJ&hl=en",
+      "website": "https://luca.dealfaro.com/"
+    }
+  }, {
     name: "lucas_immanuel_nickel_2",
     route: "/people/lucas_immanuel_nickel_2",
     frontMatter: {
