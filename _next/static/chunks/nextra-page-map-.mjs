@@ -81,7 +81,7 @@ export const pageMap = [{
       "title": "Abdulaziz Ali Alhamodi",
       "image": "/people/a1.png",
       "role": "Assistant Professor\nUniversity of Tabuk",
-      "category": "C5_32",
+      "category": "C5_33",
       "date": "2026/08/08",
       "linkedin": "http://www.linkedin.com/in/abdulazaz-albalawi"
     }
@@ -295,7 +295,7 @@ export const pageMap = [{
       "title": "Marcelo M. Carvalho",
       "image": "/people/m6.jpeg",
       "role": "Assistant Professor\nTexas State University",
-      "category": "C5_31",
+      "category": "C5_32",
       "date": "2026/08/04",
       "linkedin": "https://www.linkedin.com/in/marcelo-carvalho-1161041/",
       "google_scholar": "https://scholar.google.com/citations?user=CXOLCqEAAAAJ&hl=en",
@@ -397,6 +397,19 @@ export const pageMap = [{
       "category": "C1_50",
       "date": "2026/07/13",
       "linkedin": "https://www.linkedin.com/in/philipasare/"
+    }
+  }, {
+    name: "renato_mariz_moraes",
+    route: "/people/renato_mariz_moraes",
+    frontMatter: {
+      "title": "Renato Mariz de Moraes",
+      "image": "/people/r3.png",
+      "role": "Associate Professor\nFederal University of Pernambuco (UFPE)",
+      "category": "C5_31",
+      "date": "2026/10/14",
+      "google_scholar": "https://scholar.google.com/citations?user=TqJ7cT4AAAAJ&hl=en&citsig=ACUpqDetm8rjAnD4iAhQ5Dl9irSY",
+      "github": null,
+      "research_gate": "https://www.researchgate.net/profile/Renato-Moraes-10"
     }
   }, {
     name: "rider_foley",
