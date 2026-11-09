@@ -33,6 +33,22 @@ export const pageMap = [{
       "date": "2026/08/25"
     }
   }, {
+    name: "idi",
+    route: "/events/idi",
+    frontMatter: {
+      "title": "CENIT Workshops on Intelligent Digital Infrastructures (IDI)",
+      "image": "/events/idi.png",
+      "date": "2026/11/08"
+    }
+  }, {
+    name: "jedi",
+    route: "/events/jedi",
+    frontMatter: {
+      "title": "CENIT Workshops on Building Just and Equitable Digital Infrastructures",
+      "image": "/events/jedi.png",
+      "date": "2026/11/08"
+    }
+  }, {
     name: "talk",
     route: "/events/talk",
     frontMatter: {
