@@ -3,18 +3,118 @@ import { Galleria } from 'primereact/galleria';
 
 const ALBUMS_DATA = [
     {
-        id: 'cenit-sebastian',
-        albumName: 'Gathering with Professor Rieger - September 2025',
+        id: 'cenit-jedi-workshop-1',
+        albumName: 'CENIT First Workshop on Building Just and Equitable Digital Infrastructures - 30th October 2026',
         items: [
             {
-                filename: '9.jpg',
-                description: 'Gathering with Professor Rieger (left) from Fulda University at the Bahen Center for Information Technology, University of Toronto.'
+                filename: '19.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '20.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '21.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '22.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '23.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '24.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '25.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '26.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '27.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '28.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '29.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '30.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            },
+            {
+                filename: '31.jpg',
+                description: 'During the CENIT\'s First Workshop on Building Just and Equitable Digital Infrastructures held on the 30th of October 2026'
+            }
+        ]
+    },
+    {
+        id: 'cenit-idi-workshop-1',
+        albumName: 'CENIT First Workshop on Intelligent Digital Infrastructures - 26th October 2026',
+        items: [
+            {
+                filename: '10.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '11.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '12.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '13.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '14.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '15.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '16.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '17.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            },
+            {
+                filename: '18.jpg',
+                description: 'During the CENIT\'s First Workshop on Digital Infrastructures held on the 26th of October 2026'
+            }
+        ]
+    },
+    {
+        id: 'cenit-jj-group',
+        albumName: 'Professor JJ Group Members - July 2026',
+        items: [
+            {
+                filename: '8.jpg',
+                description: 'Professor JJ\'s research group members photo taken inside the CENIT\'s Office at the  Bahen Center for Information Technology.'
             }
         ]
     },
     {
         id: 'cenit-team',
-        albumName: 'CENIT Team Gathering - July 2026',
+        albumName: 'CENIT Group Gathering - July 2026',
         items: [
             {
                 filename: '1.jpg',
@@ -47,12 +147,12 @@ const ALBUMS_DATA = [
         ]
     },
     {
-        id: 'cenit-jj-group',
-        albumName: 'Professor JJ Group Members - July 2026',
+        id: 'cenit-sebastian',
+        albumName: 'Gathering with Professor Rieger - September 2025',
         items: [
             {
-                filename: '8.jpg',
-                description: 'Professor JJ\'s research group members photo taken inside the CENIT\'s Office at the  Bahen Center for Information Technology.'
+                filename: '9.jpg',
+                description: 'Gathering with Professor Rieger (left) from Fulda University at the Bahen Center for Information Technology, University of Toronto.'
             }
         ]
     }
@@ -88,7 +188,7 @@ export default function GalleryComponent() {
 
     const itemTemplate = (item: any) => {
         return (
-            <div className="w-full h-[900px] overflow-hidden flex items-center justify-center bg-black/5 rounded-t-xl">
+            <div className="w-full h-full overflow-hidden flex items-center justify-center bg-black/5 rounded-t-xl">
                 <img 
                     src={item.itemImageSrc} 
                     alt={item.alt} 
